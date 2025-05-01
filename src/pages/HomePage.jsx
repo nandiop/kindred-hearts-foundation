@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Users, Calendar, Donate, Info } from 'lucide-react';
+import { Users, Calendar, Heart, Info } from 'lucide-react';
 
 const HomePage = () => {
   return (
@@ -88,7 +88,7 @@ const HomePage = () => {
             <Card className="border-none shadow-lg hover:shadow-xl transition-all">
               <CardContent className="p-6 text-center">
                 <div className="bg-ngo-primary/10 w-16 h-16 rounded-full mx-auto flex items-center justify-center mb-4">
-                  <Donate size={32} className="text-ngo-primary" />
+                  <Heart size={32} className="text-ngo-primary" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">Sustainable Projects</h3>
                 <p className="text-gray-600">
