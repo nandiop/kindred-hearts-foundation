@@ -1,12 +1,13 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
 	darkMode: ["class"],
 	content: [
-		"./pages/**/*.{ts,tsx}",
-		"./components/**/*.{ts,tsx}",
-		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./pages/**/*.{js,jsx}",
+		"./components/**/*.{js,jsx}",
+		"./app/**/*.{js,jsx}",
+		"./src/**/*.{js,jsx}",
 	],
 	prefix: "",
 	theme: {
@@ -52,15 +53,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				// Custom NGO theme colors
+				ngo: {
+					primary: '#2A9D8F', // Main brand color
+					secondary: '#264653', // Dark blue
+					accent: '#E9C46A', // Warm accent
+					light: '#F8F9FA', // Light background
+					dark: '#212529', // Dark text
 				}
 			},
 			borderRadius: {
