@@ -37,7 +37,7 @@ const AboutPage = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" 
+                src="https://c7.alamy.com/comp/T5AXWB/ngos-from-rakshak-foundation-in-association-with-the-greening-team-of-the-united-states-are-seen-holding-a-tree-to-be-planted-during-the-during-the-world-earth-day-celebration-an-ngo-named-rakshak-foundation-in-association-with-the-greening-team-of-the-united-states-consulate-general-of-kolkata-observed-the-earth-day-at-the-allen-park-in-kolkata-T5AXWB.jpg" 
                 alt="Our story" 
                 className="rounded-lg shadow-xl"
               />
@@ -148,7 +148,7 @@ const AboutPage = () => {
             <Card className="border-none shadow-lg overflow-hidden">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" 
+                  src="https://thumbs.dreamstime.com/z/head-shot-portrait-smiling-young-african-american-female-professional-standing-folded-hands-modern-office-happy-mixed-165433306.jpg?ct=jpeg" 
                   alt="Sarah Williams" 
                   className="w-full h-full object-cover"
                 />
@@ -166,7 +166,7 @@ const AboutPage = () => {
             <Card className="border-none shadow-lg overflow-hidden">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" 
+                  src="https://thumbs.dreamstime.com/z/serious-devoted-business-man-work-office-computer-real-economist-business-people-not-models-bank-employees-discussing-modern-47570317.jpg?ct=jpeg" 
                   alt="Michael Chen" 
                   className="w-full h-full object-cover"
                 />
@@ -184,7 +184,7 @@ const AboutPage = () => {
             <Card className="border-none shadow-lg overflow-hidden">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" 
+                  src="https://thumbs.dreamstime.com/z/portrait-female-asian-professional-posing-smiling-camera-beautiful-office-worker-looking-working-laptop-young-120051900.jpg?ct=jpeg" 
                   alt="Amina Patel" 
                   className="w-full h-full object-cover"
                 />
@@ -209,10 +209,10 @@ const AboutPage = () => {
             Whether you're interested in volunteering, donating, or partnering with us, there are many ways to get involved and make a difference.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button size="lg" className="bg-white text-ngo-primary hover:bg-gray-100">
+            <Button size="lg" className="bg-white text-ngo-primary hover:bg-gray-100 p-4">
               <Link to="/donate">Support Our Work</Link>
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 p-4">
               <Link to="/contact">Get in Touch</Link>
             </Button>
           </div>

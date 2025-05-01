@@ -11,63 +11,63 @@ const GalleryPage = () => {
       id: 1,
       category: "events",
       title: "Community Workshop 2024",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+      image: "https://thumbs.dreamstime.com/b/high-vitamin-low-price-child-food-production-unit-run-ngo-sundarban-making-food-poor-children-minimum-63979084.jpg?w=768",
       description: "Skills development workshop with community members"
     },
     {
       id: 2,
       category: "projects",
       title: "School Building Project",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+      image: "https://thumbs.dreamstime.com/b/school-119395.jpg?w=768",
       description: "Construction of new classrooms in rural area"
     },
     {
       id: 3,
       category: "people",
       title: "Volunteer Team",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+      image: "https://thumbs.dreamstime.com/z/happy-volunteer-group-food-donation-17931089.jpg?ct=jpeg",
       description: "Our amazing volunteers during the annual meet-up"
     },
     {
       id: 4,
       category: "events",
       title: "Annual Fundraising Gala",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+      image: "https://thumbs.dreamstime.com/z/glass-jar-words-charity-heart-concept-accumulating-money-donations-saving-social-medical-help-volunteers-135369144.jpg?ct=jpeg",
       description: "Supporters gathered to raise funds for our initiatives"
     },
     {
       id: 5,
       category: "projects",
       title: "Agricultural Training",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+      image: "https://thumbs.dreamstime.com/z/teamster-team-oxen-bullock-plowing-field-yoke-australian-farmer-man-who-called-teamster-holding-demonstration-123562238.jpg?ct=jpeg",
       description: "Teaching sustainable farming techniques"
     },
     {
       id: 6,
       category: "people",
       title: "Community Leaders",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+      image: "https://thumbs.dreamstime.com/z/people-volunteering-helping-package-outside-kindness-ngo-charity-project-community-park-distribution-food-parcel-320403267.jpg?ct=jpeg",
       description: "Meeting with local community representatives"
     },
     {
       id: 7,
       category: "events",
       title: "Youth Leadership Camp",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+      image: "https://iapw.org/wp-content/uploads/2022/04/7-Youth-Leaders-Throughout-History-Who-Inspire-Us-1024x670.png",
       description: "Developing leadership skills in young community members"
     },
     {
       id: 8,
       category: "projects",
       title: "Clean Water Initiative",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+      image: "https://dacfoundation.org/frontend/db-assets/cause-images/1700368682-noticias_thebighand_5-1120x550.jpg",
       description: "Installing water purification systems"
     },
     {
       id: 9,
       category: "people",
       title: "Program Participants",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+      image: "https://thelivenagpur.com/wp-content/uploads/2022/10/WhatsApp-Image-2022-09-27-at-3.24.55-PM-1-1024x683.jpeg",
       description: "Graduates from our skills development program"
     },
   ];

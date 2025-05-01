@@ -4,41 +4,16 @@ import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Users, Calendar, Heart, Info } from 'lucide-react';
+import { Carousel } from "@material-tailwind/react";
+import HeroCarousel from './Hero';
 
 const HomePage = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-ngo-secondary to-ngo-primary text-white py-20 md:py-32">
-        <div className="container-custom">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                Make a Difference <br />
-                <span className="text-ngo-accent">In Someone's Life</span>
-              </h1>
-              <p className="text-lg mb-8 max-w-lg">
-                Join our mission to empower communities through sustainable development, education, and skill-building initiatives.
-              </p>
-              <div className="flex flex-wrap gap-4">
-                <Button size="lg" className="bg-ngo-accent text-ngo-dark hover:bg-ngo-accent/90">
-                  <Link to="/donate">Donate Now</Link>
-                </Button>
-                <Button variant="outline" size="lg" className="text-white border-white hover:bg-white/10">
-                  <Link to="/about">Learn More</Link>
-                </Button>
-              </div>
-            </div>
-            <div className="hidden md:block">
-              <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" 
-                alt="Empowering Communities" 
-                className="rounded-lg shadow-xl"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+
+      <HeroCarousel/>
+
 
       {/* Card Section */}
       <section className="py-16 bg-gray-50">
@@ -149,7 +124,7 @@ const HomePage = () => {
             
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" 
+                src="https://thumbs.dreamstime.com/b/black-white-hands-19039491.jpg?w=768" 
                 alt="Our impact" 
                 className="rounded-lg shadow-xl z-10 relative"
               />
@@ -174,7 +149,7 @@ const HomePage = () => {
             <Card className="overflow-hidden border-none shadow-lg">
               <div className="h-48 overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" 
+                  src="https://thumbs.dreamstime.com/b/agriculture-combine-8022811.jpg?w=768" 
                   alt="Community Workshop" 
                   className="w-full h-full object-cover"
                 />
@@ -198,7 +173,7 @@ const HomePage = () => {
             <Card className="overflow-hidden border-none shadow-lg">
               <div className="h-48 overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" 
+                  src="https://thumbs.dreamstime.com/b/rural-education-ngo-activities-teaching-young-indian-children-india-outdoors-temporary-classroom-boards-child-literacy-50806157.jpg?w=768" 
                   alt="Education Seminar" 
                   className="w-full h-full object-cover"
                 />
@@ -222,7 +197,7 @@ const HomePage = () => {
             <Card className="overflow-hidden border-none shadow-lg">
               <div className="h-48 overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" 
+                  src="https://thumbs.dreamstime.com/b/charity-torn-paper-appearing-behind-brown-92747360.jpg?w=768" 
                   alt="Fundraising Gala" 
                   className="w-full h-full object-cover"
                 />
@@ -253,10 +228,10 @@ const HomePage = () => {
             Your support can transform lives and create lasting positive change in communities. Join us in our mission to build a better world.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button size="lg" className="bg-white text-ngo-primary hover:bg-gray-100">
+            <Button size="lg" className="bg-white text-ngo-primary hover:bg-gray-100 p-4">
               <Link to="/donate">Donate Now</Link>
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 p-4">
               <Link to="/about">Become a Volunteer</Link>
             </Button>
           </div>

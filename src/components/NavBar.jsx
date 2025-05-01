@@ -78,11 +78,11 @@ const NavBar = () => {
               </Link>
             ))}
             <div className="pt-4 space-y-2 px-4">
-              <Button variant="outline" size="sm" className="w-full border-ngo-primary text-ngo-primary hover:bg-ngo-primary hover:text-white">
+              <Button variant="outline" size="md" className="w-full  border-ngo-primary text-ngo-primary hover:bg-ngo-primary  hover:text-white">
                 <Link to="/login" onClick={toggleMenu}>Login</Link>
               </Button>
-              <Button size="sm" className="w-full bg-ngo-primary text-white hover:bg-ngo-primary/90">
-                <Link to="/donate" onClick={toggleMenu}>Donate</Link>
+              <Button size="md" className="w-full  bg-ngo-primary text-white hover:bg-ngo-primary/90 p-4">
+                <Link to="/donate" onClick={toggleMenu} className='p-10'>Donate</Link>
               </Button>
             </div>
           </div>

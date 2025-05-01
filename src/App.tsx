@@ -16,6 +16,8 @@ import IdCardPage from "./pages/IdCardPage";
 import LinksPage from "./pages/LinksPage";
 import LoginPage from "./pages/LoginPage";
 import NotFound from "./pages/NotFound";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const queryClient = new QueryClient();
 

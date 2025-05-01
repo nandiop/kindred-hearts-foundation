@@ -14,7 +14,7 @@ const EventsPage = () => {
       time: "10:00 AM - 2:00 PM",
       location: "Community Center, 123 Main St",
       description: "Learn sustainable farming techniques with expert guidance and hands-on practice. Suitable for beginners and experienced gardeners alike.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+      image: "https://hariyaleeseeds.com/wp-content/uploads/2020/03/workshop-pic.jpg"
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const EventsPage = () => {
       time: "3:00 PM - 6:00 PM",
       location: "Public Library, 456 Knowledge Ave",
       description: "Discussion on strategies for improving rural education access and quality. Featuring speakers from education nonprofits and local schools.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+      image: "https://www.smilefoundationindia.org/wp-content/uploads/2023/03/Layer-109-1-768x568.png.webp"
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ const EventsPage = () => {
       time: "6:30 PM - 10:00 PM",
       location: "Grand Hotel, 789 Elegance Blvd",
       description: "Join us for an evening of celebration and giving back to the community. Dinner, entertainment, and silent auction included.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+      image: "https://thumbs.dreamstime.com/z/glass-jar-words-charity-heart-concept-accumulating-money-donations-saving-social-medical-help-volunteers-135369144.jpg?ct=jpeg"
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ const EventsPage = () => {
       time: "9:00 AM - 4:00 PM",
       location: "Youth Center, 321 Future St",
       description: "A full-day workshop designed to develop leadership skills in young community members aged 14-21.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+      image: "https://iapw.org/wp-content/uploads/2022/04/7-Youth-Leaders-Throughout-History-Who-Inspire-Us-1024x670.png"
     },
     {
       id: 5,
@@ -50,7 +50,7 @@ const EventsPage = () => {
       time: "11:00 AM - 3:00 PM",
       location: "Central Park, Downtown Area",
       description: "Free health screenings, wellness information, and healthy cooking demonstrations for community members of all ages.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+      image: "https://content.presspage.com/uploads/2110/1920_community-health-fair-cedars-sinai.jpeg?10000"
     },
   ];
 
